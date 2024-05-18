@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Open Menu</name>
+   <name>a_FI-SW-01</name>
    <tag></tag>
-   <elementGuidId>43fa3331-7082-4ebe-bdd8-cd1ebf8724d8</elementGuidId>
+   <elementGuidId>8b8bc5ca-dd03-4cdc-a0b1-b1bc4b5e62e0</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='menu_button_container']/div/div[3]/div/button</value>
+         <value>//div[@id='Catalog']/table/tbody/tr[2]/td/a</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>div.bm-burger-button > button</value>
+         <value>td > a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=button[name=&quot;Open Menu&quot;i]</value>
+         <value>internal:role=link[name=&quot;FI-SW-01&quot;i]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -28,103 +28,111 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
-      <webElementGuid>bfeee6ea-f3f3-4757-9439-d1d2fdde6d4a</webElementGuid>
+      <value>a</value>
+      <webElementGuid>9594e0e0-6968-4058-b485-0ae46a3db557</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/actions/Catalog.action?viewProduct=&amp;productId=FI-SW-01</value>
+      <webElementGuid>c29ce94a-a960-4d6f-9e8a-3d7cbacd5406</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Open Menu</value>
-      <webElementGuid>035fb78a-6f3a-4f28-a4f6-800f0faca64a</webElementGuid>
+      <value>FI-SW-01</value>
+      <webElementGuid>132dc811-5ece-4b86-9b4d-2c73521f7046</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;menu_button_container&quot;)/div[1]/div[3]/div[@class=&quot;bm-burger-button&quot;]/button[1]</value>
-      <webElementGuid>81fd1f29-5d2a-4856-a655-ba6997c13707</webElementGuid>
+      <value>id(&quot;Catalog&quot;)/table[1]/tbody[1]/tr[2]/td[1]/a[1]</value>
+      <webElementGuid>07632bb4-9a26-4b8d-b0c4-a095fe514419</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='menu_button_container']/div/div[3]/div/button</value>
-      <webElementGuid>7fb4a5b1-b57e-4cfb-b0bc-0b502e5fded6</webElementGuid>
+      <value>//div[@id='Catalog']/table/tbody/tr[2]/td/a</value>
+      <webElementGuid>8967039e-ac35-4695-99c1-0ec325f5e48e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'FI-SW-01')]</value>
+      <webElementGuid>c59f6815-012b-4ce7-80e8-238bc8545b20</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Close Menu'])[1]/following::button[1]</value>
-      <webElementGuid>45806383-423d-41a9-b689-bace91318c20</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Name'])[1]/following::a[1]</value>
+      <webElementGuid>b7867cca-c53a-4fa9-bf4d-baf3e32e34b1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Reset App State'])[1]/following::button[2]</value>
-      <webElementGuid>c5b238cc-46ee-4863-855f-17cf973dbd64</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Product ID'])[1]/following::a[1]</value>
+      <webElementGuid>6645916a-4b34-4fe5-817f-89f5e3473b2c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Products'])[1]/preceding::button[1]</value>
-      <webElementGuid>98356066-ad98-42b4-8d21-fca97fbd0629</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Angelfish'])[1]/preceding::a[1]</value>
+      <webElementGuid>871ee909-db4a-47bb-9bc1-6983f213afca</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sauce Labs Backpack'])[1]/preceding::button[1]</value>
-      <webElementGuid>4889f68a-e80c-4b73-9721-516e7e2d8e0b</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='FI-SW-02'])[1]/preceding::a[1]</value>
+      <webElementGuid>b82b683a-bf0c-4623-9ce1-57ae6da1d02d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Open Menu']/parent::*</value>
-      <webElementGuid>e2b0704c-2bac-4e6d-bbcf-8c6b2dd76520</webElementGuid>
+      <value>//*/text()[normalize-space(.)='FI-SW-01']/parent::*</value>
+      <webElementGuid>da6c72de-f69a-44a2-a1a9-161d8192bcc0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/actions/Catalog.action?viewProduct=&amp;productId=FI-SW-01')]</value>
+      <webElementGuid>ede669e8-6df6-49cd-b91b-4746bd97ee34</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/div/button</value>
-      <webElementGuid>8160bb0d-4b83-4a24-83c6-3d4f1e963290</webElementGuid>
+      <value>//td/a</value>
+      <webElementGuid>3fe7cf42-a11e-49dd-89aa-b085d35faccb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[(text() = 'Open Menu' or . = 'Open Menu')]</value>
-      <webElementGuid>28a9f6ae-1dfd-459b-8d6b-0bbddef2da3a</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Finish'])[1]/preceding::button[1]</value>
-      <webElementGuid>12b43bbc-2345-4a0d-83c4-232e27aa6367</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='THANK YOU FOR YOUR ORDER'])[1]/preceding::button[1]</value>
-      <webElementGuid>4196801b-e3db-4ab3-8725-4bf651915f09</webElementGuid>
+      <value>//a[@href = '/actions/Catalog.action?viewProduct=&amp;productId=FI-SW-01' and (text() = 'FI-SW-01' or . = 'FI-SW-01')]</value>
+      <webElementGuid>b0aa74e9-c862-4f82-933d-4da5b3539603</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

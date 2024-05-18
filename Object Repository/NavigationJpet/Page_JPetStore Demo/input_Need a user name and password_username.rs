@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_standard_userlocked_out_userproblem_u_0dff71</name>
+   <name>input_Need a user name and password_username</name>
    <tag></tag>
-   <elementGuidId>191476ab-385f-4ac6-ab93-081810051c91</elementGuidId>
+   <elementGuidId>8d492a48-22e1-42c7-8eb5-3e78a153fe99</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='login-button']</value>
+         <value>//input[@id='stripes--837349508']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#login-button</value>
+         <value>#stripes--837349508</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=button[name=&quot;LOGIN&quot;i]</value>
+         <value>#stripes--837349508</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,78 +29,70 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>66a77994-452c-4282-a45b-1961dfeb20b4</webElementGuid>
+      <webElementGuid>0810c403-13b6-4e16-b9b8-b897641cd905</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
+      <name>name</name>
       <type>Main</type>
-      <value>submit</value>
-      <webElementGuid>ffbc41cb-9e4e-48b4-bffc-43183ab37e1a</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>btn_action</value>
-      <webElementGuid>dcdb2132-0157-456e-be96-282f84e3263c</webElementGuid>
+      <value>username</value>
+      <webElementGuid>e5ef086f-18ab-4213-9299-a1d3b159d07b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>login-button</value>
-      <webElementGuid>5a7f6bb6-c68c-490e-abbc-8062fd70da70</webElementGuid>
+      <value>stripes--837349508</value>
+      <webElementGuid>e5b464e7-b41d-497e-864b-89b460331a02</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>value</name>
+      <name>type</name>
       <type>Main</type>
-      <value>LOGIN</value>
-      <webElementGuid>ca43fe04-a2a5-4d7a-8c67-7419c8e530de</webElementGuid>
+      <value>text</value>
+      <webElementGuid>de8c80f8-cf16-48e7-be45-3bc9124aa458</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;login-button&quot;)</value>
-      <webElementGuid>899d0bfe-c2f0-41ea-83e4-9e7c4b161823</webElementGuid>
+      <value>id(&quot;stripes--837349508&quot;)</value>
+      <webElementGuid>4ad0ab2b-c7a3-48f4-b1fc-fa3e76f50edf</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='login-button']</value>
-      <webElementGuid>fb5088f2-4b1c-4327-8d11-318604021747</webElementGuid>
+      <value>//input[@id='stripes--837349508']</value>
+      <webElementGuid>1f80dae4-20f9-478e-8b19-097d741c9648</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='login_button_container']/div/form/input[3]</value>
-      <webElementGuid>d3e31592-c94d-49c1-8fcf-dfae77bd2196</webElementGuid>
+      <value>//div[@id='Catalog']/form/p[2]/input</value>
+      <webElementGuid>91cfc771-292a-41a8-8705-920fab77e23d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//input[3]</value>
-      <webElementGuid>196a953c-c43b-4832-8530-a8ca9f69ba58</webElementGuid>
+      <value>//p[2]/input</value>
+      <webElementGuid>72ef801b-af99-414c-a7ff-91ac6e74f7f2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@type = 'submit' and @id = 'login-button']</value>
-      <webElementGuid>8bd42450-22b1-4c39-bfc3-cfed6c4bbc89</webElementGuid>
+      <value>//input[@name = 'username' and @id = 'stripes--837349508' and @type = 'text']</value>
+      <webElementGuid>70d27eb4-08dc-4295-a970-bd606c77579f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

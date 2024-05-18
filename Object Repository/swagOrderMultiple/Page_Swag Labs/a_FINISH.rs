@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Logout</name>
+   <name>a_FINISH</name>
    <tag></tag>
-   <elementGuidId>abf1c0eb-7c8f-4ef0-ae32-460bfb4d2cb7</elementGuidId>
+   <elementGuidId>441ac86d-0b74-40c9-88b0-a650b6382aaf</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[@id='logout_sidebar_link']</value>
+         <value>//div[@id='checkout_summary_container']/div/div[2]/div[8]/a[2]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#logout_sidebar_link</value>
+         <value>a.btn_action.cart_button</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=link[name=&quot;Logout&quot;i]</value>
+         <value>internal:role=link[name=&quot;FINISH&quot;i]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,134 +29,118 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>05316ba8-70f7-43a0-ae9f-65f1f0d7387a</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>logout_sidebar_link</value>
-      <webElementGuid>e8b57975-6a58-42a2-a3f4-ad2a60961ea5</webElementGuid>
+      <webElementGuid>f7c8d0f4-413c-4604-bbc2-c9ca967eea47</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>bm-item menu-item</value>
-      <webElementGuid>1923b798-2436-4dab-b4cb-5254eb17c16f</webElementGuid>
+      <value>btn_action cart_button</value>
+      <webElementGuid>3939815d-d1f7-4b87-a8c4-0bd4c35f99cc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>./index.html</value>
-      <webElementGuid>04a7077d-e49d-499a-8030-fa85b7a8a877</webElementGuid>
+      <value>./checkout-complete.html</value>
+      <webElementGuid>1991b3e4-f6c7-42a0-b738-92c90e0db814</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Logout</value>
-      <webElementGuid>3028ccd8-5212-4345-b852-563122d29bdd</webElementGuid>
+      <value>FINISH</value>
+      <webElementGuid>b80d5be4-39a7-4994-ac51-2174bbbab174</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;logout_sidebar_link&quot;)</value>
-      <webElementGuid>132d030c-cc7a-4936-8025-09c9b92e3209</webElementGuid>
+      <value>id(&quot;checkout_summary_container&quot;)/div[1]/div[@class=&quot;summary_info&quot;]/div[@class=&quot;cart_footer&quot;]/a[@class=&quot;btn_action cart_button&quot;]</value>
+      <webElementGuid>9fed1434-9d3a-4fc6-9a47-c826cf611ee4</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//a[@id='logout_sidebar_link']</value>
-      <webElementGuid>2862fb28-f0e5-42a0-8d37-5d05ee46d177</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='menu_button_container']/div/div[2]/div/nav/a[3]</value>
-      <webElementGuid>69c07911-50d8-4836-983a-ebd8c8844010</webElementGuid>
+      <value>//div[@id='checkout_summary_container']/div/div[2]/div[8]/a[2]</value>
+      <webElementGuid>900b47ed-2f3a-465d-96c8-0fc4ef2fa815</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
       <type>Main</type>
-      <value>//a[contains(text(),'Logout')]</value>
-      <webElementGuid>6142e013-a0c0-4f41-8689-2eca94cf26f5</webElementGuid>
+      <value>//a[contains(text(),'FINISH')]</value>
+      <webElementGuid>7ea3cc0d-7b49-4af7-b5ed-b2d0bf215376</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='About'])[1]/following::a[1]</value>
-      <webElementGuid>98981c1b-248b-42a5-a085-97489e7fd2f6</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='CANCEL'])[1]/following::a[1]</value>
+      <webElementGuid>09520063-ffe1-4062-84b0-e8ff50b3758c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='All Items'])[1]/following::a[2]</value>
-      <webElementGuid>351524c8-608c-4d4c-89aa-1377a1a3d8cb</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Total: $97.17'])[1]/following::a[2]</value>
+      <webElementGuid>47fc391e-43a1-45f0-a44e-6f71dd4d9994</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Reset App State'])[1]/preceding::a[1]</value>
-      <webElementGuid>c4214594-b418-4fb9-a660-924a7fbce615</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Twitter'])[1]/preceding::a[1]</value>
+      <webElementGuid>b1f389c0-6d65-40e2-b1da-e399289c2c5d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Close Menu'])[1]/preceding::a[2]</value>
-      <webElementGuid>465a1419-8d4e-417c-aba8-749f1159fcad</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Facebook'])[1]/preceding::a[1]</value>
+      <webElementGuid>f1617d82-c19e-483c-a7f2-c6f8f5d1760f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Logout']/parent::*</value>
-      <webElementGuid>10b4cdf4-fa3c-4d47-bad4-eadc12d432a7</webElementGuid>
+      <value>//*/text()[normalize-space(.)='FINISH']/parent::*</value>
+      <webElementGuid>84ca518a-3f91-4363-8ded-7e3bc5ad8a45</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[contains(@href, './index.html')]</value>
-      <webElementGuid>495f6bd0-10d7-4fd5-9334-fdda95296d23</webElementGuid>
+      <value>//a[contains(@href, './checkout-complete.html')]</value>
+      <webElementGuid>9ab9a185-f05a-46b1-8ab8-60c98a34b3bf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//a[3]</value>
-      <webElementGuid>a94b75ce-387f-460b-8068-d94ca62b1782</webElementGuid>
+      <value>//div[8]/a[2]</value>
+      <webElementGuid>4d4c2835-3042-4ef5-be50-1586ce7d0f54</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[@id = 'logout_sidebar_link' and @href = './index.html' and (text() = 'Logout' or . = 'Logout')]</value>
-      <webElementGuid>54c4b203-4e4c-40ea-9b24-fb28c90db3c5</webElementGuid>
+      <value>//a[@href = './checkout-complete.html' and (text() = 'FINISH' or . = 'FINISH')]</value>
+      <webElementGuid>03c91300-5ac3-4859-971e-79fcfbfb644f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
