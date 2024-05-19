@@ -17,27 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('login'), [('username') : 'standard_user', ('password') : 'secret_sauce', ('url') : 'https://www.saucedemo.com/v1/'], 
+    FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl(url)
-
-WebUI.click(findTestObject('Object Repository/login2/Page_JPetStore Demo/a_Enter the Store'))
-
-WebUI.click(findTestObject('Object Repository/login2/Page_JPetStore Demo/a_Sign In'))
-
-WebUI.setText(findTestObject('Object Repository/login2/Page_JPetStore Demo/input_Need a user name and password_username'), 
-    username)
-
-WebUI.setText(findTestObject('Object Repository/login2/Page_JPetStore Demo/input_Need a user name and password_password'), 
-    password)
-
-WebUI.click(findTestObject('Object Repository/login2/Page_JPetStore Demo/input_Need a user name and password_signon'))
-
-WebUI.click(findTestObject('Object Repository/login2/Page_JPetStore Demo/a_My Account'))
-
-WebUI.verifyElementText(findTestObject('Object Repository/login2/Page_JPetStore Demo/td_mohan1'), username)
-
-WebUI.click(findTestObject('Object Repository/login2/Page_JPetStore Demo/a_Sign Out'))
-
-WebUI.closeBrowser()
+WebUI.callTestCase(findTestCase('login2'), [('username') : 'mohan1', ('password') : 'mohan1', ('url') : 'https://petstore.octoperf.com/'], 
+    FailureHandling.STOP_ON_FAILURE)
 

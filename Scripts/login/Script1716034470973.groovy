@@ -19,13 +19,13 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://www.saucedemo.com/v1/')
+WebUI.navigateToUrl(url)
 
 WebUI.setText(findTestObject('Object Repository/order/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_db77ac'), 
-    'standard_user')
+    username)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/order/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_3423e9'), 
-    'qcu24s4901FyWDTwXGr6XA==')
+WebUI.setText(findTestObject('Object Repository/order/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_3423e9'), 
+    password)
 
 WebUI.click(findTestObject('Object Repository/order/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_0dff71'))
 
