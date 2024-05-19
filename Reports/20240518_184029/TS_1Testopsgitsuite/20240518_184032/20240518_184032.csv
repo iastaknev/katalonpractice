@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_1Testopsgitsuite,Edge Chromium 124,,,18-05-2024 18:41:22,18-05-2024 18:41:45,22.480s,PASSED
+,,,,,,,
+Test Cases/TC_1Testopsgit,Edge Chromium 124,,,18-05-2024 18:41:23,18-05-2024 18:41:45,22.260s,PASSED
+"openBrowser("""")",Edge Chromium 124,,,18-05-2024 18:41:23,18-05-2024 18:41:29,6.330s,PASSED
+"navigateToUrl(""https://www.saucedemo.com/v1/"")",Edge Chromium 124,,,18-05-2024 18:41:29,18-05-2024 18:41:31,1.411s,PASSED
+"setText(findTestObject(""Object Repository/order/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_db77ac""), ""standard_user"")",Edge Chromium 124,,,18-05-2024 18:41:31,18-05-2024 18:41:32,0.969s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/order/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_3423e9""), ""qcu24s4901FyWDTwXGr6XA=="")",Edge Chromium 124,,,18-05-2024 18:41:32,18-05-2024 18:41:32,0.548s,PASSED
+"click(findTestObject(""Object Repository/order/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_0dff71""))",Edge Chromium 124,,,18-05-2024 18:41:32,18-05-2024 18:41:34,1.793s,PASSED
+"click(findTestObject(""Object Repository/order/Page_Swag Labs/div_Sauce Labs Backpack""))",Edge Chromium 124,,,18-05-2024 18:41:34,18-05-2024 18:41:35,0.936s,PASSED
+"click(findTestObject(""Object Repository/order/Page_Swag Labs/button_ADD TO CART""))",Edge Chromium 124,,,18-05-2024 18:41:35,18-05-2024 18:41:35,0.425s,PASSED
+"click(findTestObject(""Object Repository/order/Page_Swag Labs/svg_Swag Labs_svg-inline--fa fa-shopping-ca_963f6f""))",Edge Chromium 124,,,18-05-2024 18:41:35,18-05-2024 18:41:36,0.954s,PASSED
+"click(findTestObject(""Object Repository/order/Page_Swag Labs/a_CHECKOUT""))",Edge Chromium 124,,,18-05-2024 18:41:36,18-05-2024 18:41:37,0.847s,PASSED
+"setText(findTestObject(""Object Repository/order/Page_Swag Labs/input_Checkout Your Information_first-name""), ""test1"")",Edge Chromium 124,,,18-05-2024 18:41:37,18-05-2024 18:41:38,0.868s,PASSED
+"setText(findTestObject(""Object Repository/order/Page_Swag Labs/input_Checkout Your Information_last-name""), ""katalon1"")",Edge Chromium 124,,,18-05-2024 18:41:38,18-05-2024 18:41:39,0.846s,PASSED
+"setText(findTestObject(""Object Repository/order/Page_Swag Labs/input_Checkout Your Information_postal-code""), ""520002"")",Edge Chromium 124,,,18-05-2024 18:41:39,18-05-2024 18:41:40,0.922s,PASSED
+"click(findTestObject(""Object Repository/order/Page_Swag Labs/input_CANCEL_btn_primary cart_button""))",Edge Chromium 124,,,18-05-2024 18:41:40,18-05-2024 18:41:41,0.963s,PASSED
+"click(findTestObject(""Object Repository/order/Page_Swag Labs/a_FINISH""))",Edge Chromium 124,,,18-05-2024 18:41:41,18-05-2024 18:41:42,1.465s,PASSED
+"click(findTestObject(""Object Repository/order/Page_Swag Labs/h2_THANK YOU FOR YOUR ORDER""))",Edge Chromium 124,,,18-05-2024 18:41:42,18-05-2024 18:41:43,0.474s,PASSED
+"verifyElementText(findTestObject(""Object Repository/order/Page_Swag Labs/h2_THANK YOU FOR YOUR ORDER""), ""THANK YOU FOR YOUR ORDER"")",Edge Chromium 124,,,18-05-2024 18:41:43,18-05-2024 18:41:43,0.408s,PASSED
+"click(findTestObject(""Object Repository/order/Page_Swag Labs/button_Open Menu""))",Edge Chromium 124,,,18-05-2024 18:41:43,18-05-2024 18:41:44,0.464s,PASSED
+"click(findTestObject(""Object Repository/order/Page_Swag Labs/a_Logout""))",Edge Chromium 124,,,18-05-2024 18:41:44,18-05-2024 18:41:44,0.610s,PASSED
+closeBrowser(),Edge Chromium 124,,,18-05-2024 18:41:44,18-05-2024 18:41:45,0.680s,PASSED

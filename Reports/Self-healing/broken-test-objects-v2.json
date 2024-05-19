@@ -1,3 +1,44 @@
 {
-  "brokenTestObjects" : [ ]
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/swagOrderMultiple/Page_Swag Labs/button_ADD TO CART",
+      "brokenLocator": "//div[@id\u003d\u0027inventory_container\u0027]/div/div/div[3]/button",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Sauce Labs Bike Light\u0027])[1]/preceding::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/swagOrderMultiple/Page_Swag Labs/button_ADD TO CART_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/swagOrderMultiple/Page_Swag Labs/button_- Back",
+      "brokenLocator": "//div[@id\u003d\u0027inventory_item_container\u0027]/div/button",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Open Menu\u0027])[1]/following::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/swagOrderMultiple/Page_Swag Labs/button_- Back_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/orderMultiple/Page_Swag Labs/path",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "path",
+      "proposedLocatorMethod": "CSS",
+      "recoveryMethod": "CSS",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/orderMultiple/Page_Swag Labs/path_CSS.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/NavigationJpet/Page_JPetStore Demo/input_Need a user name and password_username",
+      "brokenLocator": "//input[@id\u003d\u0027stripes--837349508\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027Catalog\u0027]/form/p[2]/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/NavigationJpet/Page_JPetStore Demo/input_Need a user name and password_username_idRelative.png"
+    }
+  ]
 }

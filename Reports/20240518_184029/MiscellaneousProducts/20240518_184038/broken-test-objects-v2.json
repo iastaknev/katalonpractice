@@ -1,0 +1,24 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/swagOrderMultiple/Page_Swag Labs/button_ADD TO CART",
+      "brokenLocator": "//div[@id\u003d\u0027inventory_container\u0027]/div/div/div[3]/button",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Sauce Labs Bike Light\u0027])[1]/preceding::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240518_184029/MiscellaneousProducts/20240518_184038/Object Repository/swagOrderMultiple/Page_Swag Labs/button_ADD TO CART_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/swagOrderMultiple/Page_Swag Labs/button_- Back",
+      "brokenLocator": "//div[@id\u003d\u0027inventory_item_container\u0027]/div/button",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Open Menu\u0027])[1]/following::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240518_184029/MiscellaneousProducts/20240518_184038/Object Repository/swagOrderMultiple/Page_Swag Labs/button_- Back_neighbor.png"
+    }
+  ]
+}
