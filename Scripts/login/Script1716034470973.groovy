@@ -27,6 +27,8 @@ WebUI.setText(findTestObject('Object Repository/order/Page_Swag Labs/input_stand
 WebUI.setText(findTestObject('Object Repository/order/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_3423e9'), 
     password)
 
+WebUI.takeScreenshotAsCheckpoint('screenshotpicture')
+
 WebUI.click(findTestObject('Object Repository/order/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_0dff71'))
 
 WebUI.click(findTestObject('Object Repository/order/Page_Swag Labs/button_Open Menu'))

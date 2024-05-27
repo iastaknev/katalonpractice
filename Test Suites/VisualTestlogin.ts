@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>MiscellaneousJpet</name>
+   <name>VisualTestlogin</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,44 +10,30 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
-   <testSuiteGuid>a5767498-5d2b-4cc8-900c-7dabdea0dc94</testSuiteGuid>
+   <testSuiteGuid>92d1480f-71e7-439b-bcca-149dd1809e33</testSuiteGuid>
    <testCaseLink>
-      <guid>e4f6c13a-f01a-4f8b-8c0d-12c9c98e9eea</guid>
+      <guid>dbdf75fe-e9f9-4210-8073-f5a1823ed217</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/login2</testCaseId>
+      <testCaseId>Test Cases/login</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>de35729d-d04b-4c65-b966-8f2e1aef1c47</variableId>
+         <variableId>44596fbf-35c4-45cc-8d27-c14f05ed2281</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>783c1aef-edc9-4ac8-ae98-a235004b0858</variableId>
+         <variableId>fb4551ce-a8b5-4275-909c-a4dae2b1aa01</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>69b8c422-df2d-46ca-ab2f-56d2b5c681de</variableId>
+         <variableId>83cda16f-5c49-4147-a40d-0cb403a137e1</variableId>
       </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>2dba028f-77cf-48b0-a50a-002568672e72</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/NavigationJpet</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>9ae01f9f-508c-4759-98fb-ff8e904ef4d7</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/orderJpet</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

@@ -17,6 +17,24 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/login</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>44596fbf-35c4-45cc-8d27-c14f05ed2281</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>fb4551ce-a8b5-4275-909c-a4dae2b1aa01</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>83cda16f-5c49-4147-a40d-0cb403a137e1</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>1d1f00c7-a618-437a-9804-82e543151940</guid>
@@ -24,6 +42,24 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/login2</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>de35729d-d04b-4c65-b966-8f2e1aef1c47</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>783c1aef-edc9-4ac8-ae98-a235004b0858</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>69b8c422-df2d-46ca-ab2f-56d2b5c681de</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>6d5a3107-c809-408a-bea0-5de4991fe7ce</guid>
