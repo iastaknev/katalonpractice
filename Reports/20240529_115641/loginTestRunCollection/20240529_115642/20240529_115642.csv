@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+loginTestRunCollection,Chrome 125.0.0.0,,,29-05-2024 11:56:51,29-05-2024 11:57:08,17.332s,PASSED
+,,,,,,,
+Test Cases/loginRunTime,Chrome 125.0.0.0,,,29-05-2024 11:56:51,29-05-2024 11:57:08,16.914s,PASSED
+"callTestCase(findTestCase(""login""), [""username"":""standard_user"", ""password"":""secret_sauce"", ""url"":""https://www.saucedemo.com/v1/""], STOP_ON_FAILURE)",Chrome 125.0.0.0,,,29-05-2024 11:56:52,29-05-2024 11:57:08,16.160s,PASSED

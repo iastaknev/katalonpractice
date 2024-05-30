@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login,Edge Chromium 125,,,29-05-2024 13:29:16,29-05-2024 13:30:39,1m - 23.053s,FAILED
+,,,,,,,
+Test Cases/login,Edge Chromium 125,,,29-05-2024 13:29:16,29-05-2024 13:29:33,16.504s,PASSED
+"openBrowser("""")",Edge Chromium 125,,,29-05-2024 13:29:17,29-05-2024 13:29:24,6.621s,PASSED
+navigateToUrl(url),Edge Chromium 125,,,29-05-2024 13:29:24,29-05-2024 13:29:26,2.261s,PASSED
+"setText(findTestObject(""Object Repository/order/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_db77ac""), username)",Edge Chromium 125,,,29-05-2024 13:29:26,29-05-2024 13:29:27,0.999s,PASSED
+"setText(findTestObject(""Object Repository/order/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_3423e9""), password)",Edge Chromium 125,,,29-05-2024 13:29:27,29-05-2024 13:29:28,0.866s,PASSED
+"takeScreenshotAsCheckpoint(""screenshotpicture"")",Edge Chromium 125,,,29-05-2024 13:29:28,29-05-2024 13:29:29,1.042s,PASSED
+"click(findTestObject(""Object Repository/order/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_0dff71""))",Edge Chromium 125,,,29-05-2024 13:29:29,29-05-2024 13:29:31,1.691s,PASSED
+"click(findTestObject(""Object Repository/order/Page_Swag Labs/button_Open Menu""))",Edge Chromium 125,,,29-05-2024 13:29:31,29-05-2024 13:29:31,0.395s,PASSED
+"click(findTestObject(""Object Repository/order/Page_Swag Labs/a_Logout""))",Edge Chromium 125,,,29-05-2024 13:29:31,29-05-2024 13:29:32,0.774s,PASSED
+closeBrowser(),Edge Chromium 125,,,29-05-2024 13:29:32,29-05-2024 13:29:33,1.128s,PASSED
+,,,,,,,
+Test Cases/login2,Edge Chromium 125,,,29-05-2024 13:29:33,29-05-2024 13:30:39,1m - 6.222s,FAILED
+"openBrowser("""")",Edge Chromium 125,,,29-05-2024 13:29:33,29-05-2024 13:29:38,4.579s,PASSED
+navigateToUrl(url),Edge Chromium 125,,,29-05-2024 13:29:38,29-05-2024 13:29:40,2.250s,PASSED
+"click(findTestObject(""Object Repository/login2/Page_JPetStore Demo/a_Enter the Store""))",Edge Chromium 125,,,29-05-2024 13:29:40,29-05-2024 13:29:41,1.479s,PASSED
+"click(findTestObject(""Object Repository/login2/Page_JPetStore Demo/a_Sign In""))",Edge Chromium 125,,,29-05-2024 13:29:41,29-05-2024 13:29:42,0.631s,PASSED
+"setText(findTestObject(""Object Repository/login2/Page_JPetStore Demo/input_Need a user name and password_username""), username)",Edge Chromium 125,,,29-05-2024 13:29:42,29-05-2024 13:29:43,0.649s,PASSED
+"setText(findTestObject(""Object Repository/login2/Page_JPetStore Demo/input_Need a user name and password_password""), password)",Edge Chromium 125,,,29-05-2024 13:29:43,29-05-2024 13:29:43,0.676s,PASSED
+"click(findTestObject(""Object Repository/login2/Page_JPetStore Demo/input_Need a user name and password_signon""))",Edge Chromium 125,,,29-05-2024 13:29:43,29-05-2024 13:29:44,0.724s,PASSED
+"click(findTestObject(""Object Repository/login2/Page_JPetStore Demo/a_My Account""))",Edge Chromium 125,,,29-05-2024 13:29:44,29-05-2024 13:29:45,0.636s,PASSED
+"verifyElementText(findTestObject(""Object Repository/login2/Page_JPetStore Demo/td_mohan1""), username)",Edge Chromium 125,,,29-05-2024 13:29:45,29-05-2024 13:30:39,54.334s,FAILED

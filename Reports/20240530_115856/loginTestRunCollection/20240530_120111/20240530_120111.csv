@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+loginTestRunCollection,Edge Chromium 125,,,30-05-2024 12:01:21,30-05-2024 12:01:41,20.443s,PASSED
+,,,,,,,
+Test Cases/loginRunTime,Edge Chromium 125,,,30-05-2024 12:01:21,30-05-2024 12:01:41,20.084s,PASSED
+"callTestCase(findTestCase(""login""), [""username"":""standard_user"", ""password"":""secret_sauce"", ""url"":""https://www.saucedemo.com/v1/""], STOP_ON_FAILURE)",Edge Chromium 125,,,30-05-2024 12:01:22,30-05-2024 12:01:41,19.582s,PASSED
